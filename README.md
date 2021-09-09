@@ -1,2 +1,2 @@
 # weekly
-Published weekly
+这是一个每周科普知识的一个仓库，欢迎订阅
