@@ -1,2 +1,5 @@
 # weekly
-Published weekly
+
+每周科普知识
+尽量做到言简意赅
+欢迎订阅
