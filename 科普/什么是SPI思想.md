@@ -38,8 +38,6 @@ ServiceLoader是实现SPI一个重要的类。是JDK1.6引进的一个特性。
 
 在资源目录META-INF/services中放置提供者配置文件，然后程序运行时，使用Serviceloader.load(XxxInterface.class)，会到META-INF/services的配置文件中寻找这个接口对应的实现类全路径名，然后使用反射去生成一个无参的实例。
 
-[使用参考，点击这里](https://www.jianshu.com/p/7601ba434ff4)
-
 ##### JDBC实现--java.sql.Driver
 
 打开mysql-connector-java的jar包，在META-INF/services下会有com.mysql.jdbc.Driver文件，以供Java程序调用。
